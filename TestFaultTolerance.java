@@ -22,7 +22,7 @@ class OpDetail {
 	}
 }
 
-public class TestCode {
+public class TestFaultTolerance {
 	public static int tempid=0;
 	public static int no_of_file = 0;
 	public static String filename[];
