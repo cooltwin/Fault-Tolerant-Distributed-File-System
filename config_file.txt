@@ -1,0 +1,11 @@
+read quorum : 7
+write quorum : 10
+Total no of process : 5
+version no : 1
+
+hostname		Port 	votes
+net01.utdallas.edu	7070	5
+net02.utdallas.edu	7071	2
+net03.utdallas.edu	7072	3
+net04.utdallas.edu	7073	2
+net05.utdallas.edu	7074	3
