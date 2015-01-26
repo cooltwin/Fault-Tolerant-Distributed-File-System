@@ -19,7 +19,6 @@ COMPILING THE PROGRAM
 RUNNING THE PROGRAM 
 --------------------------------------------------------------------------------------------------------
 
-- In the src directory class files are generated for all the classes \n
 - Check the entries in the Config file and open all the machines mentioned in the config file
 - type "java StaticVoting machine number" eg java StaticVoting net01
 - The program must be run simultaneously on all the machines mentioned in the Config file
@@ -28,18 +27,18 @@ RUNNING THE PROGRAM
 OUTPUT
 --------------------------------------------------------------------------------------------------------
 
-1) Every machine has its replica of file it its directory
-2) If a process generates a read request, it reads from the most updated file and prints the text on the screen
-3) If a process generates a write request, it writes to the file and sends the updated file to the members of its quorum 
-4) The sequence of operations are logged in Log files
+- Every machine has its replica of the file system it its directory
+- If a process generates a read request, it reads from the most updated file and prints the text on the screen
+- If a process generates a write request, it writes to the file and sends the updated file to the members of its quorum 
+- The sequence of operations are logged in Log files
 
 --------------------------------------------------------------------------------------------------------
 TESTING THE RESULTS
 --------------------------------------------------------------------------------------------------------
 
-1) Verify if the text files are generated
-2) Verify if the log files are created
-3) Compile the TestCode file present in the test directory
-4) Execute the TestCode file as java TestCode
-5) The results will be displayed on the terminal
+- Verify if the text files are generated
+- Verify if the log files are created
+- Compile the TestCode file present in the test directory
+- Execute the TestCode file as "java TestFaultTolerance"
+- The results will be displayed on the terminal
 
