@@ -20,9 +20,7 @@ RUNNING THE PROGRAM
 --------------------------------------------------------------------------------------------------------
 
 1) In the src directory class files are generated for all the classes
-
 2) Check the entries in the Config file and open all the machines mentioned in the config file
-
 3) Do:
    java StaticVoting machine no
    eg java StsticVoting net01
