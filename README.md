@@ -24,6 +24,7 @@ RUNNING THE PROGRAM
 3) Do:
    java StaticVoting machine no
    eg java StsticVoting net01
+   
 4) The program must be run simultaneously on all the machines mentioned in the Config file
 
 --------------------------------------------------------------------------------------------------------
