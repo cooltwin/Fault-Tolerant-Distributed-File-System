@@ -1,15 +1,14 @@
 # Fault-Tolerant-Distributed-File-System
-This project is an implementation of how a distributed file system can be made fault tolerant. To tolerate failures, there is a replica of each file on every machine in the system. All replicas of a file are kept consistent using static voting protocol. The file system supports two types of operation on a file: read and write. Before an application can execute an operation on a file, it has to first check out of the file. Inorder to check out the file, it should first request other machines for votes and fulfill the desired number votes (read quorum size) required before it could read the file. After executing the operation, the appliaction has to check in the file, which means it has to return the updated copy of the file system to all the machines has voted for it initially.
+This project is an implementation of how a distributed file system can be made fault tolerant. To tolerate failures, there is a replica of each file on every machine in the system. All replicas of a file are kept consistent using static voting protocol. 
+
+The file system supports two types of operation on a file: read and write. Before an application can execute an operation on a file, it has to first check out of the file. Inorder to check out the file, it should first request other machines for votes and should be able to gather the desired number votes (read/write quorum size). After executing the operation, the applicstion has to check in the file, which means it has to return the updated copy of the file system to all the machines that has voted for it initially.
+
 Testing of the system is done by simulating the machine failures. While a machine is down, it does not change its state. Also it discards any message it receives during this time. 
 
 
 --------------------------------------------------------------------------------------------------------
 COMPILING THE PROGRAM 
 --------------------------------------------------------------------------------------------------------
-
-1) Unzip the submitted file in the directory in the server.
-   It contains StaticVoting directory
-2) Do:
    cd StaticVoting/src
    Here all the source files are present along with Config file
 3. Compile:
