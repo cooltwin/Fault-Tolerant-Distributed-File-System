@@ -23,8 +23,7 @@ RUNNING THE PROGRAM
 2) Check the entries in the Config file and open all the machines mentioned in the config file
 3) Do:
    java StaticVoting machine no
-   eg java StsticVoting net01
-   
+   eg java StaticVoting net01
 4) The program must be run simultaneously on all the machines mentioned in the Config file
 
 --------------------------------------------------------------------------------------------------------
