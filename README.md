@@ -10,19 +10,20 @@ Testing of the system is done by simulating the machine failures. While a machin
 COMPILING THE PROGRAM 
 --------------------------------------------------------------------------------------------------------
    cd StaticVoting/src
-   Here all the source files are present along with Config file
-3. Compile:
+   (Here all the source files are present along with Config file)
+   
+   Compile:
    javac StaticVoting.java
 
 --------------------------------------------------------------------------------------------------------
 RUNNING THE PROGRAM 
 --------------------------------------------------------------------------------------------------------
 
-1) In the directory class files are generated for all the classes
+1) In the src directory class files are generated for all the classes
 2) Check the entries in the Config file and open all the machines mentioned in the config file
 3) Do:
-   java StaticVoting
-   Eg: java StaticVoting
+   java StaticVoting machine no
+   eg java StsticVoting net01
 4) The program must be run simultaneously on all the machines mentioned in the Config file
 
 --------------------------------------------------------------------------------------------------------
@@ -40,6 +41,6 @@ TESTING THE RESULTS
 
 1) Verify if the text files are generated
 2) Verify if the log files are created
-2) Compile the TestCode file present in the same directory
+2) Compile the TestCode file present in the test directory
 3) Execute the TestCode file as java TestCode
 4) The results will be displayed on the terminal
