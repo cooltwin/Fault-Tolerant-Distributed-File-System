@@ -40,6 +40,6 @@ TESTING THE RESULTS
 
 1) Verify if the text files are generated
 2) Verify if the log files are created
-2) Compile the TestCode file present in the test directory
-3) Execute the TestCode file as java TestCode
-4) The results will be displayed on the terminal
+3) Compile the TestCode file present in the test directory
+4) Execute the TestCode file as java TestCode
+5) The results will be displayed on the terminal
