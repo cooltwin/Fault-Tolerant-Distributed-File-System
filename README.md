@@ -4,7 +4,7 @@ Testing of the system is done by simulating the machine failures. While a machin
 
 
 --------------------------------------------------------------------------------------------------------
-* COMPILING THE PROGRAM 
+COMPILING THE PROGRAM 
 --------------------------------------------------------------------------------------------------------
 
 1) Unzip the submitted file in the directory in the server.
@@ -16,7 +16,7 @@ Testing of the system is done by simulating the machine failures. While a machin
    javac StaticVoting.java
 
 --------------------------------------------------------------------------------------------------------
-* RUNNING THE PROGRAM 
+RUNNING THE PROGRAM 
 --------------------------------------------------------------------------------------------------------
 
 1) In the directory class files are generated for all the classes
@@ -27,7 +27,7 @@ Testing of the system is done by simulating the machine failures. While a machin
 4) The program must be run simultaneously on all the machines mentioned in the Config file
 
 --------------------------------------------------------------------------------------------------------
-* OUTPUT
+OUTPUT
 --------------------------------------------------------------------------------------------------------
 
 1) Every machine has its replica of file it its directory
@@ -36,7 +36,7 @@ Testing of the system is done by simulating the machine failures. While a machin
 4) The sequence of operations are logged in Log files
 
 --------------------------------------------------------------------------------------------------------
-* TESTING THE RESULTS
+TESTING THE RESULTS
 --------------------------------------------------------------------------------------------------------
 
 1) Verify if the text files are generated
